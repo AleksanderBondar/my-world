@@ -1,0 +1,63 @@
+{
+    "name": "my-world-r3f",
+    "author": {
+        "name": "Aleksander",
+        "email": "aleksanderbondar98@gmail.com"
+    },
+    "description": "R3F, Vite, Typescript, Express, Tailwind, Socket.io - World Based on React Three Fiber, goal is to create a game with multiplayer",
+    "keywords": [
+        "react",
+        "react-three-fiber",
+        "r3f",
+        "vite",
+        "typescript",
+        "express",
+        "tailwind",
+        "socket.io",
+        "game",
+        "multiplayer",
+        "threejs",
+        "three.js",
+        "metaverse"
+    ],
+    "type": "module",
+    "private": false,
+    "scripts": {
+        "build": "vite build",
+        "dev": "nodemon ./server/develop.ts",
+        "start": "node ./server/server.ts",
+        "format": "prettier --write \"client/**/*.{js,jsx,json,md,ts,tsx,css,jsx}\" \"server/**/*.{js,jsx,json,md,ts,tsx,css,jsx}\" \"types/**/*.{js,jsx,json,md,ts,tsx,css,jsx}\""
+    },
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "express": "^4.17.1",
+        "express-promise-router": "^4.1.0",
+        "lodash": "^4.17.21",
+        "nodemon": "^2.0.22",
+        "socket.io": "^4.3.2",
+        "typescript": "^5.0.4",
+        "vite": "^4.1.0"
+    },
+    "devDependencies": {
+        "@react-three/cannon": "^6.5.2",
+        "@react-three/drei": "^9.69.4",
+        "@react-three/fiber": "^8.13.0",
+        "@types/express": "^4.17.17",
+        "@types/lodash": "^4.14.195",
+        "@types/node": "^20.2.5",
+        "@types/react-dom": "^18.2.4",
+        "@types/three": "^0.149.0",
+        "@vitejs/plugin-react": "^3.1.0",
+        "autoprefixer": "^10.4.14",
+        "postcss": "^8.4.23",
+        "prettier": "^2.8.8",
+        "prettier-plugin-tailwindcss": "^0.3.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "socket.io-client": "^4.6.1",
+        "tailwind-scrollbar": "^3.0.4",
+        "tailwindcss": "^3.3.2",
+        "three": "^0.149.0",
+        "zustand": "^4.3.8"
+    }
+}

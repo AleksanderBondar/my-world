@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "experimentalDecorators": true,
+        "lib": ["dom", "esnext"],
+        "typeRoots": ["./types"]
+    },
+    "ts-node": {
+        "esm": true
+    },
+    "include": ["./server/**/*"],
+    "exclude": ["node_modules", "dist", "client"]
+}
